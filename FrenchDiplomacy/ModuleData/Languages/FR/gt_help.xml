@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <strings>
+    <!--  
+    <string id="" text="" />
+    -->
+
+    <string id="str_faction_help" text="{=bAkTqxmf}Une faction est un regroupement de clans au sein d'un royaume portant un objectif commun. Si une faction obtient assez de soutien, elle déclenche une guerre civile. Si les rebelles gagnent la guerre, leur revendication sera retenue. Si les loyalistes gagnent, les clans rebelles réintégreront le royaume. Les clans victorieux gagneront en influence et en relations avec leurs alliés. Les clans vaincus perdront de l'influence. Les clans peuvent créer une faction en dépensant de l'influence." />
+	
+	<string id="str_wardetail_help" text="{=XXUwW6TM}Le niveau d'épuisement de la guerre mesure à quel point un royaume est proche de la reddition. Lorsque le niveau d'épuisement de la guerre atteint 100%, le royaume rend les armes. Les pertes humaines, les sièges, les attaques de villages et la durée de la guerre contribuent tous à l'épuisement de la guerre. Lorsqu'un royaume perd tous ses fiefs, il ne peut plus combattre et le niveau de l'épuisement de la guerre est automatiquement réglé à 100%." />
+	
+	<string id="str_warexhaustionrate_help" text="{=dh2NE8Of}Le niveau d'épuisement de la guerre correpond à la vitesse à laquelle l'épuisement de la guerre augmente au cours de la guerre. L'épuisement de la guerre augmente plus lentement lorsque la guerre oppose de grands royaumes." />
+  </strings>
