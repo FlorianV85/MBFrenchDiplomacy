@@ -6,4 +6,5 @@
   <LanguageFile xml_path="FR/gt_help.xml" />
   <LanguageFile xml_path="FR/help_strings_xml.xml" />
   <LanguageFile xml_path="FR/std_module_strings_xml.xml" />
+  <LanguageFile xml_path="FR/gt_war_exhaustion.xml" />
 </LanguageData>
