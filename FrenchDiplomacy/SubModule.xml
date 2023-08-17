@@ -8,7 +8,6 @@
 	<DefaultModule value="false" />
     <SingleplayerModule value="true" />
     <MultiplayerModule value="false" />
-    <Url value="https://www.nexusmods.com/mountandblade2bannerlord/mods/4601" />
 	<DependedModules>
         <DependedModule Id="Native" />
         <DependedModule Id="SandBoxCore" />
@@ -23,6 +22,6 @@
         <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="v1.0.0.*" />
         <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="v1.0.0.*" />
         <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="v1.0.0.*" optional="true" />
-		<DependedModuleMetadata id="Bannerlord.Diplomacy" order="LoadBeforeThis" version="v1.2.*" />
+		<DependedModuleMetadata id="Bannerlord.Diplomacy" order="LoadBeforeThis" version="v1.*" />
     </DependedModuleMetadatas>
 </Module>
