@@ -16,24 +16,24 @@
     <string id="str_war_exhaustion_raid.1" text="{=SXhzqm2N}{DATE_STR}: {RAIDED_VILLAGE} a été attaqué par {OTHER_FACTION_PARTY} (diminue les revenus générés)" />
 
     <string id="str_war_exhaustion_siege.0" text="{=6cSuGG87}{DATE_STR}: {?SETTLEMENT.IS_CASTLE}Le château de {?}{\?}{SETTLEMENT.NAME} défendu par {FACTION_PARTY} a été pris par {OTHER_FACTION_PARTY}" />
-    <string id="str_war_exhaustion_siege.1" text="{=fuaTMWpt}{DATE_STR}: {?SETTLEMENT.IS_CASTLE}Le château de {?}{\?}{SETTLEMENT.NAME} défendu par {FACTION_PARTY} a été pris par {OTHER_FACTION_PARTY} (diminue les revenus générés)" />
+    <string id="str_war_exhaustion_siege.1" text="{=fuaTMWpt}{DATE_STR}: {?SETTLEMENT.IS_CASTLE}Le château de {?}{\?}{SETTLEMENT.NAME} défendu par {FACTION_PARTY} a été repris par {OTHER_FACTION_PARTY} (diminue les revenus générés)" />
 
-    <string id="str_war_exhaustion_hero_imprisoned.0" text="{=yRvZ37cx}{DATE_STR}: {HERO} a été fait prisonnier par {OTHER_FACTION_PARTY}" />
-    <string id="str_war_exhaustion_hero_imprisoned.1" text="{=i2Moqprl}{DATE_STR}: {HERO} a été fait prisonnier par {OTHER_FACTION_PARTY} (diminue les revenus générés)" />
+    <string id="str_war_exhaustion_hero_imprisoned.0" text="{=yRvZ37cx}{DATE_STR}: {HERO} a été {?HERO.IS_FEMALE}faite prisonnière{?}fait prisonnier{\?} par {OTHER_FACTION_PARTY}" />
+    <string id="str_war_exhaustion_hero_imprisoned.1" text="{=i2Moqprl}{DATE_STR}: {HERO} a été {?HERO.IS_FEMALE}faite prisonnière{?}fait prisonnier{\?} par {OTHER_FACTION_PARTY} (diminue les revenus générés)" />
 
-    <string id="str_war_exhaustion_hero_perished.0" text="{=QkSVPgDF}{DATE_STR}: {HERO} est mort de causes naturelles{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.1" text="{=S0lkYB5P}{DATE_STR}: {HERO} a été assassiné par {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.0" text="{=QkSVPgDF}{DATE_STR}: {HERO} est mort{?HERO.IS_FEMALE}e{?}{\?} de causes naturelles{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.1" text="{=S0lkYB5P}{DATE_STR}: {HERO} a été assassiné{?HERO.IS_FEMALE}e{?}{\?} par {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
     <string id="str_war_exhaustion_hero_perished.2" text="{=f6OIFaSj}{DATE_STR}: {HERO} est morte en donnant naissance à un enfant{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.3" text="{=PmOPed8Y}{DATE_STR}: {HERO} est mort de vieillesse{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.4" text="{=Pp6wYS5m}{DATE_STR}: {HERO} est mort au combat contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.5" text="{=QvGjUrmL}{DATE_STR}: {HERO} est mort des suites de ses blessures après une bataille contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.6" text="{=5tBkM1O4}{DATE_STR}: {HERO} a été exécuté par {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
-    <string id="str_war_exhaustion_hero_perished.7" text="{=moeUCyaq}{DATE_STR}: {HERO} a péri dans une bataille contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.3" text="{=PmOPed8Y}{DATE_STR}: {HERO} est mort{?HERO.IS_FEMALE}e{?}{\?} de vieillesse{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.4" text="{=Pp6wYS5m}{DATE_STR}: {HERO} a péri au cours d'une bataille contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.5" text="{=QvGjUrmL}{DATE_STR}: {HERO} est mort{?HERO.IS_FEMALE}e{?}{\?} des suites de ses blessures après une bataille contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.6" text="{=5tBkM1O4}{DATE_STR}: {HERO} a été exécuté{?HERO.IS_FEMALE}e{?}{\?} par {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
+    <string id="str_war_exhaustion_hero_perished.7" text="{=moeUCyaq}{DATE_STR}: {HERO} a disparu lors d'une bataille contre {OTHER_FACTION_PARTY}{?YIELDS_DIMINISHING_RETURNS} (diminue les revenus générés){?}{\?}" />
 
     <string id="str_war_exhaustion_occupied.0" text="{=VB1xpuMA}{DATE_STR}: {FACTION} a été totalement occupée par {OTHER_FACTION}" />
     <string id="str_war_exhaustion_occupied.1" text="{=X9wHA6q3}{DATE_STR}: {FACTION} a été totalement occupée par {OTHER_FACTION} (diminue les revenus générés)" />
 
-    <string id="str_war_exhaustion_divine.0" text="{=9vOZJpPu}{DATE_STR}: L'épuisement de guerre de {FACTION} s'est miraculeusement diminuée (certains évoquent une intervention divine)" />
+    <string id="str_war_exhaustion_divine.0" text="{=9vOZJpPu}{DATE_STR}: L'épuisement de guerre de {FACTION} a miraculeusement diminué (certains évoquent une intervention divine)" />
     <string id="str_war_exhaustion_divine.1" text="{=S5tDXkgK}{DATE_STR}: Des rumeurs circulent selon lesquelles une mystérieuse force aurait tenté d'influencer les efforts de guerre de {FACTION}, mais rien ne semble avoir changé" />
     <string id="str_war_exhaustion_divine.2" text="{=fJE6Y9mB}{DATE_STR}: Le peuple de {FACTION} a soudainement perdu toute volonté de se battre (certains évoquent une intervention divine)" />
   </strings>
