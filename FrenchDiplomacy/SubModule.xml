@@ -2,12 +2,13 @@
 <Module>
 	<Name value = "Diplomacy - Traduction française"/>
 	<Id value = "FrenchDiplomacy"/>
-	<Version value = "v1.1.14"/>
+	<Version value = "v1.2.6"/>
 	<ModuleType value="Community"/>
 	<Official value="false"/>
 	<DefaultModule value="false" />
     <SingleplayerModule value="true" />
     <MultiplayerModule value="false" />
+    <Url value="https://www.nexusmods.com/mountandblade2bannerlord/mods/4601" />
 	<DependedModules>
         <DependedModule Id="Native" />
         <DependedModule Id="SandBoxCore" />
@@ -22,6 +23,6 @@
         <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="v1.0.0.*" />
         <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="v1.0.0.*" />
         <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="v1.0.0.*" optional="true" />
-		<DependedModuleMetadata id="Bannerlord.Diplomacy" order="LoadBeforeThis" version="v1.*" />
+		<DependedModuleMetadata id="Bannerlord.Diplomacy" order="LoadBeforeThis" version="v1.2.*" />
     </DependedModuleMetadatas>
 </Module>
