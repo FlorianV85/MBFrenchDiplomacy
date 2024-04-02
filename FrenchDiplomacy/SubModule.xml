@@ -2,7 +2,7 @@
 <Module>
 	<Name value = "Diplomacy - Traduction française"/>
 	<Id value = "FrenchDiplomacy"/>
-	<Version value = "v1.2.6"/>
+	<Version value = "v1.2.11"/>
 	<ModuleType value="Community"/>
 	<Official value="false"/>
 	<DefaultModule value="false" />
