@@ -5,11 +5,11 @@
   </tags>
   <strings>
     <string id="0WVHMfN8" text="Une rébellion écrasée" />
-    <string id="BVNGIAMM" text="{PARENT_KINGDOM} a écrasé la rébellion qui ravageait son royaume. {PLAYER_PARTICIPATION}" />
+    <string id="BVNGIAMM" text="{.L}{PARENT_KINGDOM} a écrasé la rébellion qui ravageait son royaume. {PLAYER_PARTICIPATION}" />
     <string id="x5ThZR5A" text="Un nouveau Royaume émerge" />
-    <string id="nRxyMIEE" text="{PARENT_KINGDOM} a perdu la guerre civile et n'a pas réussi à maintenir l'unité de son royaume. Le {KINGDOM} a émergé. {PLAYER_PARTICIPATION}" />
+    <string id="nRxyMIEE" text="{.L}{PARENT_KINGDOM} a perdu la guerre civile et n'a pas réussi à maintenir l'unité de son royaume. Le {KINGDOM} a émergé. {PLAYER_PARTICIPATION}" />
     <string id="1OQGJkqb" text="Une faction Rebelle s'est formée" />
-    <string id="pqjZ6wck" text="Une faction Rebelle s'est formée dans {KINGDOM}. Ils sont dirigés par le clan {CLAN_NAME}. {DEMAND}" />
+    <string id="pqjZ6wck" text="Une faction Rebelle s'est formée dans {.l}{KINGDOM}. Ils sont dirigés par le clan {CLAN_NAME}. {DEMAND}" />
     <string id="ZAfNviVS" text="Sécession" />
     <string id="wUspUo1y" text="Abdication" />
     <string id="LF19GulH" text="Se retirer du royaume. Les membres de cette faction formeront un nouveau royaume. Seuls les clans de niveau 4 ou supérieur peuvent créer une faction pour la sécession." />
@@ -19,11 +19,11 @@
     <string id="ChzQncc0" text="Rébellion" />
     <string id="WUAv0u4U" text="Rassembler les soutiens" />
     <string id="fw0k1KFl" text="Revendication : {DEMAND_NAME}" />
-    <string id="FajeZClv" text="{REBELS} (Rebelles de {KINGDOM})" />
+    <string id="FajeZClv" text="{REBELS} (Rebelles {.dl}{KINGDOM})" />
     <string id="nAvLFv5Q" text="La Guerre Civile Éclate" />
-    <string id="2PpZkBOB" text="La guerre civile éclate dans le {KINGDOM}. {REBEL_KINGDOM} sont menés par le clan {CLAN_NAME}. {DEMAND}" />
+    <string id="2PpZkBOB" text="La guerre civile éclate dans {.l}{KINGDOM}. {.L}{REBEL_KINGDOM} sont menés par le clan {CLAN_NAME}. {DEMAND}" />
     <string id="o0HIAHqg" text="Les royaumes Rebelles ne peuvent pas faire l'objet d'interactions diplomatiques." />
-    <string id="GKSaZESx" text="Suite à l'élection d'un nouveau monarque, les {REBELS} de {PARENT_KINGDOM} se sont dissous." />
+    <string id="GKSaZESx" text="Suite à l'élection d'un nouveau monarque, les {REBELS} {.dl}{PARENT_KINGDOM} se sont dissous." />
     
     <string id="BPcKHP0D" text="En tant que chef des rebelles, vous avez gagné {INFLUENCE} influence." />
     <string id="UoMvwnTb" text="En tant que chef des rébelles, vous avez perdu {INFLUENCE} influence." />
@@ -50,7 +50,7 @@
     <string id="2PglxF8k" text="Choisir une revendication de faction" />
     <string id="gypPPxUJ" text="Factions" />
     <string id="aWWzFITw" text="Un Monarque Abdique" />
-    <string id="2Pv3DsVm" text="{PARENT_KINGDOM} a perdu sa guerre civile face à {REBELS}. {LEADER} va renoncer au trône. {PLAYER_PARTICIPATION}" />
+    <string id="2Pv3DsVm" text="{.L}{PARENT_KINGDOM} a perdu sa guerre civile face à {REBELS}. {LEADER} va renoncer au trône. {PLAYER_PARTICIPATION}" />
     <string id="GkhKppOk" text="Pas assez de fiefs" />
     <string id="Jc1mCVuY" text="Trait : Calculateur" />
     <string id="cjbVV7E3" text="Niveau de clan trop bas" />
@@ -97,7 +97,7 @@
     <string id="6kNmdLxZ" text="Coût d'influence de la création de factions" />
     <string id="EwbXg3va" text="Le coût en influence pour la création d'une faction. La valeur par défaut est de 100." />
     <string id="7wK0mmw1" text="Tendance des factions" />
-    <string id="7wK0mmw1" text="Modificateur de score affectant la tendance des clans à créer ou à rejoindre des factions. L'augmentation du modificateur augmente la participation aux factions. La valeur par défaut est 0." />
+    <string id="aqvIdG7w" text="Modificateur de score affectant la tendance des clans à créer ou à rejoindre des factions. L'augmentation du modificateur augmente la participation aux factions. La valeur par défaut est 0." />
     
   </strings>
 </base>

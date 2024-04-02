@@ -19,8 +19,8 @@
 
 
     <string id="JmgAuONd" text="Oh, non... Le messager est tombé dans une embuscade et a été dévoré par un Grue alors qu'il tentait d'atteindre {HERO_NAME} !" />
-    <string id="YnRmSele" text="Le messager en provenance de {FACTION1_NAME} est arrivé à {ADDRESSEE_TEXT}.{BRIBE_TEXT}" />
-    <string id="qNWMZP0z" text="Le messager en provenance de {FACTION1_NAME} arrivera à {ADDRESSEE_TEXT} dans {TRAVEL_TIME} jours." />
+    <string id="YnRmSele" text="Le messager en provenance {.dl}{FACTION1_NAME} est arrivé à {ADDRESSEE_TEXT}.{BRIBE_TEXT}" />
+    <string id="qNWMZP0z" text="Le messager en provenance {.dl}{FACTION1_NAME} arrivera à {ADDRESSEE_TEXT} dans {TRAVEL_TIME} jours." />
    <string id="nYrezEOX" text="Messager Tué" />
     <string id="A5lug0JY" text="Votre messager est tombé dans une embuscade et a été tué par des bandits de grand chemin alors qu'il tentait d'atteindre {HERO NAME} !" />
     <string id="vGyBQeEk" text="{HERO_NAME}{?HAS_FACTION} de {FACTION2_NAME}{?}{\?}" />
@@ -44,14 +44,14 @@
     <string id="cXfcwzPp" text="Envoyer un messager" />
 
     <string id="N06wk0dB" text="Colonie capturée" />
-    <string id="Zy0yjTha" text="En tant que conquérant de {SETTLEMENT_NAME}, vous avez un droit de préemption. Voulez-vous réclamer ce fief ?" />
+    <string id="Zy0yjTha" text="En tant que conquérant {.dl}{SETTLEMENT_NAME}, vous avez un droit de préemption. Voulez-vous réclamer ce fief ?" />
 
     <string id="IWZ91JVk" text="Pas assez d'or !" />
 
     <string id="LpoyhORp" text="Accorder un fief" />
     <string id="h3b1S5Wq" text="Accorder un fief à {CLAN_NAME}" />    
     <string id="jznJfkfU" text="Fief octroyé" />
-    <string id="cXbgaPSm" text="{SETTLEMENT_NAME} a été accordé à {CLAN_NAME}."/>
+    <string id="cXbgaPSm" text="{.L}{SETTLEMENT_NAME} a été accordé à {CLAN_NAME}."/>
 
     <string id="FqeN0fmR" text="Vous ne pouvez pas accorder de fiefs à votre propre clan." />
     <string id="zdSYUnZQ" text="Vous n'êtes pas le chef de votre royaume." />
@@ -64,9 +64,9 @@
     <string id="UQZmdLzc" text="Ne peut pas être en guerre." />
     <string id="PdN5g5ub" text="Alliance formée" />
     <string id="3pbwc8sh" text="Proposition d'Alliance"/>
-    <string id="QbOqatd7" text="{KINGDOM} propose une alliance avec {PLAYER_KINGDOM}." />
+    <string id="QbOqatd7" text="{.L}{KINGDOM} propose une alliance avec {PLAYER_KINGDOM}." />
 
-    <string id="384jX28Q" text="{KINGDOM} a brisé l'alliance avec {PLAYER_KINGDOM}."/>
+    <string id="384jX28Q" text="{.L}{KINGDOM} a brisé l'alliance avec {PLAYER_KINGDOM}."/>
     <string id="D1ZQKZr1" text="Alliance Brisée" />
 
     <string id="0WPWbx70" text="Former une alliance" />
@@ -78,7 +78,7 @@
     <string id="KqfNSsBE" text="Alliés" />
     <string id="Dirltd6Z" text="Les alliances sont désactivées." />
 
-    <string id="Q8ItogIP" text="Proposer directement à {ENEMY_LEADER}{WAR_REPARATIONS_AND_TRIBUTE}{FIEFS_TO_RETURN}" />
+    <string id="Q8ItogIP" text="Proposer directement {.a}{ENEMY_LEADER}{WAR_REPARATIONS_AND_TRIBUTE}{FIEFS_TO_RETURN}" />
     <string id="BC7823G2" text="{?REPARATIONS_PAY}, paie {REPARATIONS} réparations de guerre{?TRIBUTE_PAY} et {TRIBUTE} tribut/jour.{?}{?TRIBUTE_GET}, mais reçoit {TRIBUTE} tribut/jour.{?}{\?}{\?}{?}{?REPARATIONS_GET}, reçoit {REPARATIONS} réparations de guerre{?TRIBUTE_PAY}, mais paie {TRIBUTE} tribut/jour.{?}{?TRIBUTE_GET} et {TRIBUTE} tribut/jour.{?}{\?}{\?}{?}{?TRIBUTE_PAY}, paie {TRIBUTE} tribut/jour.{?}{?TRIBUTE_GET}, reçoit {TRIBUTE} tribut/jour.{?}.{\?}{\?}{\?}{\?}" />
     <string id="9CvcPwJA" text="{?FIEFS_ANY} Il se peut que vous deviez restituer certains des fiefs capturés !{?}{\?}" />
 
@@ -99,7 +99,7 @@
     <string id="noWHMN1W" text ="Pactes de non-agression" />
 
     <string id="yj4XFa5T" text="Proposition de pacte de non-agression"/>
-    <string id="gyLjlpJB" text="{KINGDOM} propose un pacte de non-agression avec {PLAYER_KINGDOM}."/>
+    <string id="gyLjlpJB" text="{.L}{KINGDOM} propose un pacte de non-agression avec {.l}{PLAYER_KINGDOM}."/>
 
     <string id="9pY0NQrk" text="Signer un Pacte"/>
     <string id="9zlQNtlX" text="Signer un pacte de non-agression durable pendant {PACT_DURATION_DAYS} jours."/>
@@ -107,10 +107,10 @@
     <string id="1occw3EF" text="Statistiques"/>
     <string id="OvbY5qxL" text="Aperçu"/>
 
-    <string id="UDC8eW7s" text="{ALLIED_KINGDOM} a rejoint son allié, {KINGDOM}, dans la guerre contre {ENEMY_KINGDOM}."/>
+    <string id="UDC8eW7s" text="{.L}{ALLIED_KINGDOM} a rejoint son allié, {.l}{KINGDOM}, dans la guerre contre {.l}{ENEMY_KINGDOM}."/>
 
     <string id="pdI7Tjtj" text="Pacte de Non-Agression Expiré"/>
-    <string id="uWY09LJb" text="Le pacte de non-agression entre {KINGDOM} et {OTHER_KINGDOM} a expiré."/>
+    <string id="uWY09LJb" text="Le pacte de non-agression entre {.l}{KINGDOM} et {.l}{OTHER_KINGDOM} a expiré."/>
 
     <string id="dUCOV7km" text="Corruption (trop de fiefs)"/>
     <string id="koTNaZUX" text="Déclin de l'influence (trop d'influence)"/>
@@ -121,9 +121,10 @@
     <string id="q5qphBwi" text="Faction faible"/>
     <string id="sygtLRqA" text="Relations"/>
 
-    <string id="cmOSpfyW" text="Alliance avec {ALLIED_KINGDOM}"/>
-    <string id="RqQ4oqvl"  text="Guerre contre {ENEMY_KINGDOM}"/>
-    <string id="t6YhBLj7" text="Pacte de non-agression avec {KINGDOM}" />
+    <string id="cmOSpfyW" text="Alliance avec {.l}{ALLIED_KINGDOM}"/>
+    <string id="RqQ4oqvl"  text="Guerre contre {.l}{ENEMY_KINGDOM}"/>
+    <string id="t6YhBLj7" text="Pacte de non-agression avec {.l}{KINGDOM}" />
+    <string id="BjkwaNot" text="Mariage avec le clan dirigeant {.dl}{KINGDOM}" />
 
     <string id="M4SGjzQP" text="Cette faction n'est pas intéressée à signer un pacte de non-agression avec vous."/>
 
@@ -134,9 +135,9 @@
     <string id="CxdpR6w4" text="Expansionnisme"/>
 
     <string id="ARNRwPrY" text="Coalition formée"/>
-    <string id="qbLPBlIv" text="Calradia s'inquiète de l'expansion inexorable de {EXPANSIONIST_KINGDOM}. Une coaliation dirigée par le {COALITION_KINGDOM} a été formée pour les combattre !"/>
+    <string id="qbLPBlIv" text="Calradia s'inquiète de l'expansion inexorable de {EXPANSIONIST_KINGDOM}. Une coaliation dirigée par {.l}{COALITION_KINGDOM} a été formée pour les combattre !"/>
 
-    <string id="vB3RrMNf" text="Le {KINGDOM} a signé un pacte de non-agression avec le {OTHER_KINGDOM}." />
+    <string id="vB3RrMNf" text="{.L}{KINGDOM} a signé un pacte de non-agression avec {.l}{OTHER_KINGDOM}." />
     <string id="5r6fsHgm" text="Score actuel"/>
     <string id="XIBUWDlT" text="Score requis"/>
 
@@ -185,6 +186,16 @@
     <string id="N5EouSSj" text="Permet au joueur de déclarer des guerres et de faire la paix dans le royaume auquel il appartient, même s'il n'est qu'un vassal et non le chef du royaume. Par défaut, l'option est désactivée." />
 
     <string id="lhysZl9j" text="Probabilité des actions" />
+    <string id="dRyU9E7Z" text="Pas de guerre entre amis" />
+    <string id="XyXJSTKr" text="Si activée, les dirigeants de royaume qui entretiennent une relation d'amitié ne se feront pas la guerre. Par défaut, l'option est activée." />
+    <string id="pWoKQ6HO" text="Pas de guerre si bonne relation" />
+    <string id="bOuGhbPt" text="Si activée, les guerres entre dirigeants de royaume ne seront pas autorisées s'ils entretiennent une relation supérieure au seuil de relation pour déclarer la guerre. Par défaut, l'option est activée." />
+    <string id="x0Aoiomr" text="Pas de guerre si bonne relation - Seuil" />
+    <string id="aH6rpjt6" text="Seuil de relation entre dirigeants de royaume à partir duquel les royaumes ne pourront pas se faire la guerre. Par défaut, la valeur est 30." />
+    <string id="jwNKk8P7" text="Pas de guerre entre mariés" />
+    <string id="xcMzKH48" text="Si activée, les clans dirigeants de royaume qui sont liés par le mariage ne se feront pas la guerre. Par défaut, l'option est activée." />
+    <string id="xXKKRp99" text="Probabilité d'alliance lors du mariage entre clans dirigeants" />
+    <string id="BGS6mUID" text="Si activée, ajoute un bonus de probabilité d'alliance lors d'un mariage entre les familles de clans dirigeants. Par défaut, l'option est activée." />
 
     <string id="ldLFTs92" text="Coûts" />      
     <string id="Ckd1Lsoa" text="Coûts en or" />

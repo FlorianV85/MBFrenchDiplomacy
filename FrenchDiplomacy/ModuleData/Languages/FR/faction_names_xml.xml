@@ -5,35 +5,35 @@
   </tags>
   <strings>
     <!-- Faction Titles -->
-    <string id="MXAsjFdI" text="Conspiration {CLAN_NAME}" />
-    <string id="LUzfk4tb" text="Ligue {CLAN_NAME}" />
+    <string id="MXAsjFdI" text="Conspiration {.dl}{CLAN_NAME}" />
+    <string id="LUzfk4tb" text="Ligue {.dl}{CLAN_NAME}" />
 
     <!-- Aserai Titles -->
-    <string id="iLMqCvmk" text="Sultanat de {CLAN_NAME}" />
-    <string id="EnpnMNRH" text="Émirat de {CLAN_NAME}" />
+    <string id="iLMqCvmk" text="Sultanat {.dl}{CLAN_NAME}" />
+    <string id="EnpnMNRH" text="Émirat {.dl}{CLAN_NAME}" />
     <string id="uzd9mxIC" text="Banu {CLAN_NAME}" />
-    <string id="NTFz3B56" text="Chérifat de {CLAN_NAME}" />
+    <string id="NTFz3B56" text="Chérifat {.dl}{CLAN_NAME}" />
 
     <!-- Battania Titles -->
-    <string id="kaU24WXu" text="Confédération de {CLAN_NAME}" />
+    <string id="kaU24WXu" text="Confédération {.dl}{CLAN_NAME}" />
 
     <!-- Khuzait Titles -->
-    <string id="mEHufuep" text="Khanat de {CLAN_NAME}" />
+    <string id="mEHufuep" text="Khanat {.dl}{CLAN_NAME}" />
     <string id="DTBaowBi" text="Khaganat {CLAN_NAME}" />
     <string id="pRgQF4WY" text="Dynastie {CLAN_NAME}" />
 
     <!-- Sturgia Titles -->
-    <string id="z5VPFrfh" text="Comté de {CLAN_NAME}" />
+    <string id="z5VPFrfh" text="Comté {.dl}{CLAN_NAME}" />
 
     <!-- Vlandia Titles -->
-    <string id="A4zT7H5g" text="Grand-Duché de {CLAN_NAME}" />
+    <string id="A4zT7H5g" text="Grand-Duché {.dl}{CLAN_NAME}" />
 
 
     <!-- Generic Titles -->
-    <string id="kToqhmHh" text="Principauté de {CLAN_NAME}" />
-    <string id="WjB3SM1f" text="Royaume de {CLAN_NAME}" />
+    <string id="kToqhmHh" text="Principauté {.dl}{CLAN_NAME}" />
+    <string id="WjB3SM1f" text="Royaume {.dl}{CLAN_NAME}" />
     <string id="E63n30UM" text="Empire {CLAN_NAME}" />
-    <string id="lSQeaVfw" text="Empire de {CLAN_NAME}" />
+    <string id="lSQeaVfw" text="Empire {.dl}{CLAN_NAME}" />
 
 
 
